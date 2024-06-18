@@ -937,7 +937,15 @@ white-space: nowrap;
   margin-bottom: 0;
 }
 
+.skills .heading {
+    margin-left: 6.6rem;
+  
+     
+  }
 
+  .heading-project{
+     text-align: center;
+ }
 
 .education .heading{
   margin-left: 26%;
