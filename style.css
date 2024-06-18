@@ -550,7 +550,7 @@ section{
 
  .heading-project{
     margin-bottom: 4rem;
-    margin-left: 53%;
+    margin-left: 50%;
     font-size: 4rem;
  }
 
@@ -1018,7 +1018,7 @@ white-space: nowrap;
 
   #menu-icon{
       display: block;
-      margin-right: 6%;  
+       
   }
   .home-content{
       flex-direction: column;
