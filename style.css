@@ -278,7 +278,7 @@ section{
 
 .about-img img:hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    transform: perspective(400px) rotateY(20deg);
+     
      
 }
 
@@ -918,10 +918,30 @@ white-space: nowrap;
     }
 } 
 
-@media (max-width: 450px){
+@media (max-width: 500px){
  html{
   font-size: 50%;
  }
+
+ .home-img img{
+    width: 70vw;
+    margin-left: 1rem;
+ }
+
+ .about-img img {
+    width: 70vw;
+     
+}
+
+.about-content{
+  margin-bottom: 0;
+}
+
+
+
+.education .heading{
+  margin-left: 26%;
+}
 
  .education-container{
     width: 100%;
@@ -986,7 +1006,7 @@ white-space: nowrap;
 
 }
 
-@media (max-width: 385px) {
+@media (max-width: 450px) {
 
   #menu-icon{
       display: block;
@@ -1000,8 +1020,8 @@ white-space: nowrap;
        
     }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
     .home-img img{
-         width: 80vw;
-         margin-left: 10%;
+         width: 70vw;
+         margin-left: 2%;
       }
 
       .about{
@@ -1012,13 +1032,17 @@ white-space: nowrap;
 
   .about-img img {
       width: 70vw;
-      margin-bottom: 22rem;
+       
+  }
+
+  .about-content{
+    margin-bottom: 0;
   }
 
  
 
   .education .heading{
-    margin-left: 25%;
+    margin-left: 26%;
   }
 
   .projects-container{
