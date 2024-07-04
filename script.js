@@ -78,6 +78,6 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
-ScrollReveal().reveal('.home-img, .about-img, .skills-container .education-container', { origin: 'bottom' });
-ScrollReveal().reveal('.about-content, .work-container .projects-container', { origin: 'left' });
-ScrollReveal().reveal('.home-content h1, .home-content p', { origin: 'right' });
+ScrollReveal().reveal('.home-img, .about-img, .skills-container, .education-container' , { origin: 'bottom' });
+ScrollReveal().reveal('.about-content, .work-container, .projects-container' , { origin: 'left' });
+ScrollReveal().reveal('.home-content h1, .home-content p, .heading-project' , { origin: 'right' });
